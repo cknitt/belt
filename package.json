@@ -1,0 +1,25 @@
+{
+  "name": "belt",
+  "version": "11.0.0",
+  "description": "ReScript's immutable collection library",
+  "scripts": {
+    "start": "rescript build -w",
+    "build": "rescript build",
+    "cppo": "node scripts/cppo.js",
+    "test": "npx mocha -t 10000 test/*.bs.js"
+  },
+  "keywords": [
+    "ReScript",
+    "collections",
+    "immutable"
+  ],
+  "author": "Hongbo Zhang, Authors of ReScript",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "rescript": "^11.0.0-rc.5"
+  },
+  "devDependencies": {
+    "immutable": "^5.0.0-beta.4",
+    "mocha": "^10.2.0"
+  }
+}
